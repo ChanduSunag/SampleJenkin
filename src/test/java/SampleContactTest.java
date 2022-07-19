@@ -8,7 +8,10 @@ public class SampleContactTest {
 
 	@Test(groups = "regression test")
 	public void createContactTest() {
+		
+		String browser = System.getProperty("BROWSER");
 		System.out.println("=======contact created=c=======");
+		String url = System.getProperty("URL");
 	}
 
 	@Test(groups = "smoke test")
