@@ -9,6 +9,8 @@ public class SampleOrganizationTest {
 	@Test(groups = "smoke test")
 	public void createOrganizationTest() {
 	System.out.println("=========organization created==========");
+	
+	System.out.println("=========organization deleted==========");
 	}
 
 	@Test(groups="regression test")
